@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diplom project</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <a class="logo" href="..//index.html">АБ</a>
+                    <nav class="menu">
+                        <button class="menu__btn">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                        <ul class="menu__list">
+                            <li class="menu__list-item">
+                                <a href="../index.html" class="menu__list-link">Главная</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a href="..//portfolio/portfolio.html" class="menu__list-link">Портфолио</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a href="../gallery/gallery.html" class="menu__list-link">Галерея</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a href="../contacts.html" class="menu__list-link">Контакты</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a href="" class="menu__list-link menu__list-link--active">Бонус</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="description">
+                <div class="container">
+                    <div class="description-info">
+                        <h2 class="description__title">Игра "Змейка 2D"</h2>
+                        <p class="description__text">Управление совершается с помощью клавиш W,A,S,D</p>
+                    </div>
+                </div>
+            </section>
+            <div class="container">
+                <div id="game">
+                    <div class="game-header">
+                        <div class="game-score">
+                            <span class="score-count">1234</span>
+                        </div>
+                    </div>
+                    <div class="canvas-wrapper">
+                        <canvas id="game-canvas" width="320" height="400"></canvas>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__content">
+                    &copy; 2023 Богдашкина Алена Геннадьевна
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>

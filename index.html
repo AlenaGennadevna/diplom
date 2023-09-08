@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diplom project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header header-main">
+            <div class="container">
+                <div class="header__inner">
+                    <a class="logo" href="index.html">АБ</a>
+                    <nav class="menu">
+                        <button class="menu__btn">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                        <ul class="menu__list">
+                            <li class="menu__list-item">
+                                <a href="" class="menu__list-link menu__list-link--active">Главная</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="./portfolio/portfolio.html">Портфолио</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="./gallery/gallery.html">Галерея</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="contacts.html">Контакты</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="./bonus/bonus.html">Бонус</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="top">
+                <div class="container">
+                    <h1 class="title">Привет, меня зовут<br>Богдашкина Алена</h1>
+                    <p class="title__text">Приглашаю Вас посмотреть мой сайт-портфолио</p>
+                </div>
+            </section>
+            <div class="slider">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" style="background-image: url(images/slide1.jpg);"></div>
+                        <div class="swiper-slide" style="background-image: url(images/slide2.jpg);"></div>
+                        <div class="swiper-slide" style="background-image: url(images/slide3.jpg);"></div>
+                        <div class="swiper-slide" style="background-image: url(images/slide4.jpg);"></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+            <section class="about">
+                <div class="container">
+                    <h2 class="about-title">Немного о себе</h2>
+                    <div class="about-info">
+                        <ul class="about__text">
+                            <li class="about__text-item">Меня зовут Алена. Я web-разработчик. Влюбилась в профессию во время обучения.
+                                С удовольствием изучаю что-то новое для себя в верстке и разработке.
+                            </li>
+                            <li class="about__text-item">Знаю языки разметки: HTML(5), таблицы стилей CSS(3). Основы программирования
+                                на языке JavaScript. Умею верстать адаптивные сайты под разные устройства.
+                            </li>
+                            <li class="about__text-item">Образование: <br> Профессия ""Веб-разработчик" - Московский финансово-промышленный университет «Синергия» <br>
+                            "Основы HTML и CSS", "JavaScript для начинающих" - Образовательная платформа онлайн-курсов</li>
+                        </ul>
+                        <img class="about_img" src="images/photo.jpg" alt="#">
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__content">
+                    &copy; 2023 Богдашкина Алена Геннадьевна
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

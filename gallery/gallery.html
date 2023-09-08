@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diplom project</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./style3.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <a class="logo" href="../index.html">АБ</a>
+                    <nav class="menu">
+                        <button class="menu__btn">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                        <ul class="menu__list">
+                            <li class="menu__list-item">
+                                <a href="../index.html" class="menu__list-link">Главная</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a href="..//portfolio/portfolio.html" class="menu__list-link">Портфолио</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a href="#" class="menu__list-link menu__list-link--active">Галерея</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a href="../contacts.html" class="menu__list-link">Контакты</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a href="../bonus/bonus.html" class="menu__list-link">Бонус</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="gallery">
+                <div class="container">
+                    <h2 class="gallery__title">Город-герой Волгоград</h2>
+                    <div class="gallery__slider">
+                        <div id="slider__viewport" class="slider__viewport">
+                            <div class="slider">
+
+                                <div class="slide active"><img src="img/gal1.jpg" alt=""></div>
+                                <div class="slide"><img src="img/gal2.jpg" alt=""></div>
+                                <div class="slide"><img src="img/gal3.jpg" alt=""></div>
+                                <div class="slide"><img src="img/gal4.jpg" alt=""></div>
+                                <div class="slide"><img src="img/gal5.jpg" alt=""></div>
+                                <div class="slide"><img src="img/gal6.jpg" alt=""></div>
+                                <div class="slide"><img src="img/gal7.jpg" alt=""></div>
+
+                            </div>
+                        </div>
+                        <div class="slider__control">
+
+                            <div class="slider__control-button slider__control-prev" id="slider__control-prev">
+                                <img src="img/back.svg" alt="">
+                            </div>
+                            <div class="slider__control-button slider__control-next" id="slider__control-next">
+                                <img src="img/next.svg" alt="">
+                            </div>
+
+                        </div>
+                        <div class="slider__pagination">
+                            <div id="viewSlider">
+
+                                <div class="viewSlide active"></div>
+                                <div class="viewSlide"></div>
+                                <div class="viewSlide"></div>
+                                <div class="viewSlide"></div>
+                                <div class="viewSlide"></div>
+                                <div class="viewSlide"></div>
+                                <div class="viewSlide"></div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__content">
+                    &copy; 2023 Богдашкина Алена Геннадьевна
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
